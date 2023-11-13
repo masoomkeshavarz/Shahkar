@@ -1,0 +1,57 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Base64UrlEncoder" Version="1.0.1" />
+    <PackageReference Include="BouncyCastle" Version="1.8.9" />
+    <PackageReference Include="BouncyCastle.Cryptoe" Version="1.0.0" />
+    <PackageReference Include="BouncyCastle.NetCore" Version="2.2.1" />
+    <PackageReference Include="jose-jwt" Version="4.1.0" />
+    <PackageReference Include="JsonWebToken" Version="2.0.0-beta.4" />
+    <PackageReference Include="JWT" Version="10.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.1" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="7.0.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto">
+      <HintPath>..\..\..\..\Downloads\AppShahkarEncrypt-OK-1402-04-07\AppShahkarEncrypt\bin\Debug\net7.0\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="gfoidl.Base64">
+      <HintPath>..\..\..\..\Downloads\AppShahkarEncrypt-OK-1402-04-07\AppShahkarEncrypt\bin\Debug\net7.0\gfoidl.Base64.dll</HintPath>
+    </Reference>
+    <Reference Include="jose-jwt">
+      <HintPath>..\..\..\..\Downloads\AppShahkarEncrypt-OK-1402-04-07\AppShahkarEncrypt\bin\Debug\net7.0\jose-jwt.dll</HintPath>
+    </Reference>
+    <Reference Include="JWT">
+      <HintPath>..\..\..\..\Downloads\AppShahkarEncrypt-OK-1402-04-07\AppShahkarEncrypt\bin\Debug\net7.0\JWT.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Abstractions">
+      <HintPath>..\..\..\..\Downloads\AppShahkarEncrypt-OK-1402-04-07\AppShahkarEncrypt\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.JsonWebTokens">
+      <HintPath>..\..\..\..\Downloads\AppShahkarEncrypt-OK-1402-04-07\AppShahkarEncrypt\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Logging">
+      <HintPath>..\..\..\..\Downloads\AppShahkarEncrypt-OK-1402-04-07\AppShahkarEncrypt\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Tokens">
+      <HintPath>..\..\..\..\Downloads\AppShahkarEncrypt-OK-1402-04-07\AppShahkarEncrypt\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\..\Downloads\AppShahkarEncrypt-OK-1402-04-07\AppShahkarEncrypt\bin\Debug\net7.0\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IdentityModel.Tokens.Jwt">
+      <HintPath>..\..\..\..\Downloads\AppShahkarEncrypt-OK-1402-04-07\AppShahkarEncrypt\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
